@@ -1,32 +1,32 @@
 :root {
-  /* Customization settings */
-  --background-color: #cccccc; /* Background color of page */
-  --content-body-width: 960px; /* Width of content body */
-  --content-color: #ffffff; /* Background color of main content */
-  --content-header-color: #406e9f; /* Background color of content title header */
-  --sidebar-color: #aab505; /* Background color of sidebar */
-  --table-main-color: #eeeeee; /* Background color of tables */
-  --table-header-color: #336699; /* Background color of table headers */
+	/* Customization settings; color settings also accept gradients, background images, etc. */
+	--background-color: #cccccc; /* Background color of page */
+	--content-body-width: 960px; /* Width of content body */
+	--content-color: #ffffff; /* Background color of main content */
+	--content-header-color: #406e9f; /* Background color of content title header */
+	--sidebar-color: #aab505; /* Background color of sidebar */
+	--table-main-color: #eeeeee; /* Background color of tables */
+	--table-header-color: #336699; /* Background color of table headers */
 }
 ul, #content {
-  padding: 8px;
+	padding: 8px;
 }
 table, tr {
 	border: 1px solid #cccccc;
 }
 html {
-	background-color: var(--background-color);
+	background: var(--background-color);
 	font-family: sans-serif;
 }
 table {
-	background-color: var(--table-main-color);
+	background: var(--table-main-color);
 	border-radius: 5px;
 }
 td {
 	padding: 5px;
 }
 th {
-	background-color: var(--table-header-color);
+	background: var(--table-header-color);
 	border-radius: 5px;
 	color: #ffffff;
 	padding: 5px;
@@ -54,7 +54,7 @@ ul {
 	padding: 5px;
 }
 #content {
-	background-color: var(--content-color);
+	background: var(--content-color);
 	border-radius: 10px;
 	grid-column-start: 2;
 	margin: 0;
@@ -76,14 +76,14 @@ ul {
 	width: var(--content-body-width);
 }
 #sidebar {
-	background-color: var(--sidebar-color);
+	background: var(--sidebar-color);
 	border-radius: 10px;
 	color: #ffffff;
 	grid-column-start: 1;
 	width: 180px;
 }
 #top {
-	background-color: var(--content-header-color);
+	background: var(--content-header-color);
 	border-radius: 10px 10px 0 0;
 	color: #ffffff;
 	font-size: 25px;
